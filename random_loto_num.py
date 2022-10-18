@@ -55,14 +55,6 @@ nums_entry.pack()
 generate_password_button=Button(right_frame, text="generer", font=("helvetica", 20), bg="#41B77F", fg="black", command=loto_generator)
 generate_password_button.pack(fill=X)
 
-#on place la sous boite a droite de la frame principale
-right_frame.grid(row=0, column=1, sticky=W)
-
-#afficher la frame
-frame.pack(expand=YES)
-
-
-
 # creer un titre
 label_title2=Label(right_frame, text="Étoile:", font=("helvetica", 20), bg="white", fg="black")
 label_title2.pack()
