@@ -39,7 +39,6 @@ canvas=Canvas(frame, width=width, height=height, bg="white", bd=0, highlightthic
 canvas.create_image(width/2, height/2, image=image)
 canvas.grid(row=0, column=0, sticky=W)
 
-
 #creer un sous boite
 right_frame=Frame(frame, bg="white")
 
